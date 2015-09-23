@@ -1,0 +1,40 @@
+﻿body {
+	padding:0px;
+	margin:0px;
+}
+
+#header {
+	width:100%;
+	height:10%;
+	float:left;	
+	background-color:#71CAF4;
+}
+
+#header p {
+	float:right;
+	padding:10px;
+	margin:0px;
+}
+
+#header #players {
+	float:left;
+	padding:10px;
+	margin:0px;
+}
+
+#canvas {
+	width:100%;
+	height:70%;
+	float:left;
+	background-color:gray;
+}
+
+.wrap {
+	position:relative;
+	width:auto;
+	padding:0px;
+	margin:20px;
+}
+
+
+

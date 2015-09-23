@@ -1,0 +1,14 @@
+{
+  "name": "myo-node",
+  "version": "0.1.0",
+  "description": "a private package for practicing web development",
+  "author": "Erich Kuerschner",
+  "dependencies": {
+    "express": "^5.0.0-alpha.2",
+    "http": "0.0.0",
+    "myo": "*",
+    "mysql": "^2.8.0",
+    "socket.io": "^1.3.6",
+    "ws": "*"
+  }
+}
