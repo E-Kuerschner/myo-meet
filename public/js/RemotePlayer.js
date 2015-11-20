@@ -1,3 +1,9 @@
+//TODO: require pixi??
+module.exports = RemotePlayer;
+
+/**
+ A remove player is a representation of the other players connected to the server
+**/
 var RemotePlayer = function(id, startX, startY) {
 	var	id = id;
 	var	dot = new PIXI.Graphics();
