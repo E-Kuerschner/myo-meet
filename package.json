@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "a private package for practicing web development",
   "author": "Erich Kuerschner",
+  "scripts": {
+    "build": "browserify src/app.js > public/js/bundle.js -d",
+    "watch": "watchify src/app.js -o public/js/bundle.js -dv"
+  }
   "dependencies": {
     "express": "^5.0.0-alpha.2",
     "http": "0.0.0",
